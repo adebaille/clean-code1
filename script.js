@@ -1,8 +1,8 @@
 // Etape 1
-function sommes(arr) {
+function sommes(array) {
 	let number = 0;
-	for (let i = 0; i < arr.length; i++) {
-		number += arr[i];
+	for (let i = 0; i < array.length; i++) {
+		number += array[i];
 	}
 	return number;
 }
